@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(254, 128, 128);
+    text-align: center;
+    margin-top: 20vh;
+}
+
+h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+    font-style: normal;
+}
+
+#next-button {
+    max-width: 10%;
+    height: auto;
+}
