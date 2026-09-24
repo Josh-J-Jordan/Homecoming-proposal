@@ -11,7 +11,99 @@ h1 {
     font-style: normal;
 }
 
+h2 {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    font-style: normal;
+}
+
+h3 {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    font-style: normal;
+}
+
+#pic-page-body {
+    background-color: #D4AF37;
+    text-align: center;
+    margin-top: 5vh;
+}
+#pic-page-header {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    font-style: normal;
+}
+
+#password-body {
+    background-color: #1dbfaf;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
 #next-button {
     max-width: 10%;
     height: auto;
 }
+
+/* image formatting on picture page */
+#pic1 {
+    position: absolute;
+    max-width: 15%;
+    height: auto;
+    top: 55vh;
+    right: 55vw;
+    border-radius: 10px;
+}
+
+#pic2 {
+    position: absolute;
+    max-width: 17%;
+    height: auto;
+    top: 25vh;
+    right: 75vw;
+    border-radius: 10px;
+}
+#pic3 {
+    position: absolute;
+    max-width: 20%;
+    height: auto;
+    top: 45vh;
+    right: 30vw;
+    border-radius: 10px;
+}
+#pic4 {
+    position: absolute;
+    max-width: 20%;
+    height: auto;
+    top: 35vh;
+    right: 5vw;
+    border-radius: 10px;
+}
+
+ .code-inputs {
+    margin-top:4em;
+    gap: 10px;
+
+  }
+  .code-inputs input {
+    width: 48px;
+    height: 56px;
+    text-align: center;
+    font-size: 24px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+  }
+  .code-inputs input:focus {
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2);
+  }
+
+  button {
+    margin: 10px;
+    border-radius: 10px;
+  }
